@@ -1,0 +1,22 @@
+let login = prompt("Please enter Admin"); 
+let empty = '';
+if (login == "Admin") 
+{
+    let password = prompt("Please enter a password");
+      if (password == "TheMaster") {
+        alert("Welcome!");
+      } else if (password == empty || password == null) {
+          alert("Canceled");  
+          
+      } else {
+          alert("Wrong Password");
+        } 
+} else if (login == empty || login == null) {
+    alert("Canceled");
+} else {
+    alert("I don't know you.");
+}
+
+
+
+  
